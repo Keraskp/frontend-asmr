@@ -1,0 +1,103 @@
+/* This is boilerplate for any css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* boilerplate-end */
+
+#bg-div{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1694542699853-764485da60cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#car1{
+    width: 100px;
+    height: 120px;
+    background-color: red;
+}
+
+#car2{
+    width: 110px;
+    height: 90px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+}
+
+#car3{
+    width: 130px;
+    height: 110px;
+    background-color: green;
+}
+
+/* #box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+
+#sm-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 40%;
+} */
+
+
+#box{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/* The CSS code you provided contains a few rules that are commonly used to reset and normalize the default styling of HTML elements and define some basic styles for the html and body elements. Here's a breakdown of what each part of the code does:
+
+*: This is a wildcard selector that selects all HTML elements on the page.
+
+margin: 0; padding: 0; box-sizing: border-box;: These are CSS property declarations that apply to all HTML elements (*). Here's what each property does:
+
+margin: 0;: This sets the margin of all elements to 0. The margin is the space around an element's outside edge.
+
+padding: 0;: This sets the padding of all elements to 0. The padding is the space between an element's content and its border.
+
+box-sizing: border-box;: This changes the box-sizing model of all elements to "border-box." In the border-box model, an element's width and height include its content, padding, and border, but not any margin. This can help ensure that elements behave more predictably when you specify their dimensions.
+
+html, body: These are selectors that target the html and body elements specifically.
+
+width: 100%; height: 100%;: These are property declarations that apply to both the html and body elements.
+
+width: 100%;: This sets the width of both the html and body elements to 100% of the viewport width. This essentially makes these elements take up the full width of the browser window.
+
+height: 100%;: This sets the height of both the html and body elements to 100% of the viewport height, making them occupy the entire height of the browser window.
+
+These styles are commonly used as a foundation for web development to ensure consistent and predictable layout behavior across different browsers and devices by resetting default browser styling and ensuring that the html and body elements take up the full viewport dimensions. */
