@@ -1,2 +1,2 @@
-# frontend-asmr
-Collection of frontend templates
+# project2-ImageGallery
+html, css, flex, grid
